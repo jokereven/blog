@@ -1,0 +1,80 @@
+baseURL = "https://jokereven.github.io/"        # url
+languageCode = "en-us"
+title = "jokereven"
+theme = "LeaveIt"
+
+paginate = 18                 # 首页每页显示的文章数
+enableEmoji = true            # 允许表情
+enableRobotsTXT = true        # 允许爬虫
+googleAnalytics = ""          # UA-XX-XX
+preserveTaxonomyNames = true
+toc = true                    # 是否开启目录
+autoCollapseToc = true        # Auto expand and collapse toc
+hasCJKLanguage = true
+
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+  posts = "/:year/:filename/"
+
+[menu] # 菜单
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params] # 参数
+    since = 2022                                # 站点建立时间
+    author = "jokereven"                        # Author's name
+    avatar = "/images/me/avatar.jpeg"           # Author's avatar
+    subtitle = "All is for consistent."         # Subtitle
+    cdn_url = "www.baidu.com"                   # Base CDN URL
+    # home_mode = ""                              # post or other
+
+    google_verification = ""
+
+    description = "" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+
+[params.social]       # 下方的图
+    GitHub = "jokereven"
+    Email   = "zjing125.cn@gmail.com"
+    # Wechat = "/images/me/wechat.png"  # Wechat QRcode image
+    Telegram = "jokereven"
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+    enable = false #开关
+    appId = ''
+    appKey = ''
+    notify = false # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false # Verification code
+    avatar = 'mp' #神秘人(一个灰白头像)
+    placeholder = '说点什么吧...' #在评论框显示的温馨提示等
+    visitor = true #访问量统计
