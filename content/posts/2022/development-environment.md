@@ -3,7 +3,7 @@ title: 'Development Environment'
 date: 2022-11-17T17:25:27+08:00
 draft: true
 tags: ['development', 'env']
-categories: ['env']
+categories: ['development']
 ---
 
 ## vscode setting
@@ -21,3 +21,17 @@ categories: ['env']
 ## dotfiles
 
 [dotfiles](https://github.com/avzgrp/dotfiles)
+
+## Go
+
+https://github.com/voidint/g
+
+## Node
+
+linux: https://github.com/nvm-sh/nvm
+
+windows: https://github.com/coreybutler/nvm-windows
+
+## more
+
+loading...

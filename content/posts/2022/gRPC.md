@@ -43,3 +43,20 @@ protoc-gen-go v1.28.1
 $ protoc-gen-go-grpc --version
 protoc-gen-go-grpc 1.2.0
 ```
+
+## full code
+
+https://github.com/jokereven/gRPC
+
+### tips
+
+```
+protoc --go_out=. --go_opt=paths=source_relative \
+--go-grpc_out=. --go-grpc_opt=paths=source_relative \
+proto/hello_world.proto
+```
+
+```
+python3 -m grpc_tools.protoc -Iproto --python_out=. --grpc_python_out=. proto/hello_world.proto
+```
+-Iproto is -I + proto file directory, and the python client import package name is like hello_world_pb2 and hello_world_pb2_grpc your proto file name + _pb2 and + _pb2_grpc
