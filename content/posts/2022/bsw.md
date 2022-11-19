@@ -6,6 +6,10 @@ tags: ['bsw', 'english']
 categories: ['bsw']
 ---
 
-# **iː 和 i**
+# 全网最适合中国人的免费音标课(纯干货, 超详细!)
 
-![image-20221119171815918](https://i0.hdslb.com/bfs/album/24622256fec786f3d3806b6e6380d27fba2a1069.png)
+when i use figure bed in hugo it's not show, so i use cnblogs to writes.
+
+[https://www.cnblogs.com/jokereven/p/16906698.html](https://www.cnblogs.com/jokereven/p/16906698.html)
+
+[https://www.bilibili.com/video/BV1iV411z7Nj](https://www.bilibili.com/video/BV1iV411z7Nj)
