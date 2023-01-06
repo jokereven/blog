@@ -8,13 +8,15 @@ categories: ["Go"]
 
 # grpc-gateway
 
+> try use english to write blog
+
 ## introduce
 
 gRPC-Gateway is a plugin of [protoc](https://github.com/protocolbuffers/protobuf). It reads a [gRPC](https://grpc.io/) service definition and generates a reverse-proxy server which translates a RESTful JSON API into gRPC. This server is generated according to [custom options](https://cloud.google.com/service-infrastructure/docs/service-management/reference/rpc/google.api#http) in your gRPC definition.
 
 ## About
 
-The gRPC-Gateway is a plugin of the Google protocol buffers compiler [protoc](https://github.com/protocolbuffers/protobuf). It reads protobuf service definitions and generates a reverse-proxy server which translates a RESTful HTTP API into gRPC. This server is generated according to the [`google.api.http`](https://github.com/googleapis/googleapis/blob/master/google/api/http.proto#L46) annotations in your service definitions.
+The gRPC-Gateway is a plugin of the Google protocol buffers compiler [protoc](https://github.com/protocolbuffers/protobuf). It reads protobuf service definitions and generates a reverse-proxy server which translates a RESTful HTTP API into gRPC. This server is generated according to the [google.api.http](https://github.com/googleapis/googleapis/blob/master/google/api/http.proto#L46) annotations in your service definitions.
 
 This helps you provide your APIs in both gRPC and RESTful style at the same time.
 
