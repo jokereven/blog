@@ -30,6 +30,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: jokereven/jokereven.github.io
+          REPOSITORY_NAME: jokereven/joker
           BRANCH: main
           FOLDER: public
